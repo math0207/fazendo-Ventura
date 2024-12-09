@@ -603,3 +603,44 @@ nav {
     gap: 2rem;
   }
 }
+
+@media screen and (min-width: 390px) {
+  .section__header,
+  .section__subheader,
+  .section__description {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .booking__form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input__group {
+    max-width: 90%;
+  }
+
+  .header__container h1,
+  .header__container p {
+    text-align: center;
+  }
+
+  .about__image img {
+    margin: auto;
+  }
+
+  .service__content {
+    text-align: center;
+  }
+
+  .footer__col {
+    text-align: center;
+  }
+
+  .footer__socials {
+    justify-content: center;
+  }
+}
+
