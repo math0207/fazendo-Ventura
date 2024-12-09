@@ -533,7 +533,7 @@ nav {
   }
 }
 
-@media (width > 768px) {
+@media (width > 720px) {
   nav {
     padding: 2rem 1rem;
     position: static;
